@@ -1,0 +1,38 @@
+html {
+  font-family: Quicksand, sans-serif;
+}
+
+.card {
+  padding: 15em 2em ;
+  margin: 2em;
+  background-color: #999;
+  border-radius: 30px;
+}
+
+.text-content {
+  color: #fff;
+  top: 2em;
+}
+
+@media only screen and (min-width: 38em) {
+  .card {
+    padding: 10em 2em ;
+    border-radius: 40px;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+  .card {
+    padding: 13em 2em ;
+    border-radius: 50px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}
