@@ -2,9 +2,17 @@ html {
   font-family: Quicksand, sans-serif;
 }
 
+a {
+  color: ##9672d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
 .banner {
   background-color: #999;
-  border-radius: 30px;
 }
 
 .card {
