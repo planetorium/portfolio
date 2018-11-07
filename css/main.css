@@ -3,42 +3,96 @@ html {
 }
 
 a {
-  color: ##9672d0;
+  color: #7D38C6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #888;
-}
-
-.banner {
-  background-color: #999;
-}
-
-.card {
-  padding: 15em 2em;
-  margin: 2em;
-  background-color: #999;
-  border-radius: 30px;
-}
-
-.text-content {
-  top: -1em;
   color: #fff;
 }
 
+.button {
+  padding: .5em 1em;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.about-me {
+  color: #7D38C6;
+}
+
+.about-button {
+  background-color: #7D38C6;
+}
+
+.recipedia-text {
+  color: #2C8702;
+}
+
+.recipedia-button {
+  background-color: #2C8702;
+}
+
+.snapshot-text {
+  color: #009DCC;
+}
+
+.snapshot-button {
+  background-color: #009DCC;
+}
+
+.card {
+  background-position: right bottom;
+  background-size: auto 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.purple-waves {
+  background-image: url("../images/purple-waves.svg");
+}
+
+.green-waves {
+  background-image: url("../images/green-waves.svg");
+}
+
+.blue-waves {
+  background-image: url("../images/blue-waves.svg");
+}
+
+.text-content {
+  color: #000;
+}
+
+.image-1 {
+  display: none;
+}
+
 @media only screen and (min-width: 38em) {
+
   .card {
-    padding: 10em 2em;
-    border-radius: 40px;
+    border-radius: 30px;
   }
 
+}
+
+@media only screen and (min-width: 48em) {
+
+  .image-1 {
+    display: block;
+  }
+
+  .image-2 {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
   .card {
-    padding: 13em 2em;
     border-radius: 50px;
   }
 
