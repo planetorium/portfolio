@@ -1,31 +1,16 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
-</head>
-<body>
 ---
 layout: default
 ---
-
-  <main class="gutter-2">
     <div class="grid card grid-middle blue-waves pad-t-1-2 push-2 wrapper">
       <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
         <div class="pad-b-1-2 text-content gutter-2">
           <h2 class="snapshot-header">Snapshot</h2>
           <p class="snapshot-text pad-b-1-2">Snapshot is a SAAS website that offers designers a product that will turn their sketches into editable vectors immediately. The goal is to reduce the time it takes to convert sketched images into digital pieces to make life more efficient.</p>
-          <a href="snapshot.html" class="snapshot-button button">Explore</a>
+          <a href="{{site.baseurl}}/snapshot" class="snapshot-button button">Explore</a>
         </div>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <img class="img-flex" src="images/snapshot-card.png" alt="">
+        <img class="img-flex" src="{{site.baseurl}}/images/snapshot-card.png" alt="">
       </div>
     </div>
 
@@ -34,11 +19,11 @@ layout: default
         <div class="pad-b-1-2 text-content gutter-2">
           <h2 class="recipedia-header">Recipedia</h2>
           <p class="recipedia-text pad-b-1-2">Recipedia is an app that will help users find new and exciting recipes, join a community of talented at home chefs and keep their ingedients list in order for shopping.</p>
-          <a href="recipedia.html" class="recipedia-button button">Explore</a>
+          <a href="{{site.baseurl}}/recipedia" class="recipedia-button button">Explore</a>
         </div>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <img class="img-flex" src="images/recipedia-graphic.png" alt="">
+        <img class="img-flex" src="{{site.baseurl}}/images/recipedia-graphic.png" alt="">
       </div>
     </div>
 
@@ -51,10 +36,6 @@ layout: default
         </div>
       </div>
       <div class="face-graphic unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-        <img class="img-flex" src="images/face.svg" alt="">
+        <img class="img-flex" src="{{site.baseurl}}/images/face.svg" alt="">
       </div>
     </div>
-  </main>
-
-</body>
-</html>
