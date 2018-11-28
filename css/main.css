@@ -18,6 +18,23 @@ a:hover {
   color: #fff;
 }
 
+.main-nav {
+  background-color: #fff;
+  padding: 1em;
+  color: #6BCCE1;
+  border-radius: 70px;
+}
+
+.main-nav:hover {
+  color: #7D38C6;
+}
+
+.header-image {
+  background-image: url("../images/header-image.svg");
+  background-repeat: none;
+  background-size: 100%;
+}
+
 .about-me {
   color: #7D38C6;
 }
