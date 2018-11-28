@@ -1,5 +1,6 @@
 html {
   font-family: Quicksand, sans-serif;
+  color: #6BCCE1;
 }
 
 a {
@@ -8,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #6BCCE1;
 }
 
 .button {
@@ -21,24 +22,46 @@ a:hover {
   color: #7D38C6;
 }
 
+.about-me-header {
+  color: #7D38C6;
+}
+
 .about-button {
   background-color: #7D38C6;
 }
 
 .recipedia-text {
-  color: #2C8702;
+  color: #05A585;
+}
+
+.recipedia-header {
+  color: #0DD1AB;
 }
 
 .recipedia-button {
-  background-color: #2C8702;
+  background-color: #05A585;
+}
+
+.recipedia-button:hover {
+  background-color: #0DD1AB;
+  color: #fff;
 }
 
 .snapshot-text {
   color: #009DCC;
 }
 
+.snapshot-header {
+  color: #F59705;
+}
+
 .snapshot-button {
   background-color: #009DCC;
+}
+
+.snapshot-button:hover {
+  color: #fff;
+  background-color: #F59705;
 }
 
 .card {
@@ -92,6 +115,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 60em) {
+
   .card {
     border-radius: 50px;
   }
