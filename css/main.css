@@ -19,21 +19,27 @@ a:hover {
 }
 
 .main-nav {
-  background-color: #fff;
-  padding: 0.6em;
-  color: #6BCCE1;
-  border-radius: 70px;
-  border: 3px solid #6BCCE1;
+  color: #fff;
 }
 
 .main-nav:hover {
-  color: #7D38C6;
+  color: #DCC9ED;
+}
+
+.footer-image {
+  background-image: linear-gradient(to right, #5FCAE7, #7D38C6);
+}
+
+footer, footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #DCC9ED;
 }
 
 .header-image {
-  background-image: url("../images/header-image.svg");
-  background-repeat: none;
-  background-size: 100%;
+  background-image: linear-gradient(to right, #5FCAE7, #7D38C6);
 }
 
 .about-me {
@@ -82,6 +88,27 @@ a:hover {
   background-color: #F59705;
 }
 
+.trail-text {
+  color: #8129C1;
+}
+
+.trail-header {
+  color: #3FD6EB;
+}
+
+.trail-button {
+  background-color: #8129C1;
+}
+
+.trail-button:hover {
+  color: #fff;
+  background-color: #3FD6EB;
+}
+
+.max-width {
+  width: 32em;
+}
+
 .card {
   background-position: right bottom;
   background-size: auto 100%;
@@ -102,6 +129,10 @@ a:hover {
 
 .blue-waves {
   background-image: url("../images/blue-waves.svg");
+}
+
+.trail-waves {
+  background-image: url("../images/trail-waves.svg");
 }
 
 .text-content {

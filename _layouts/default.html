@@ -22,13 +22,15 @@
     {{content}}
   </main>
 
-  <footer>
+  <footer class="footer-image">
     <div class="grid text-center wrapper">
       <div class="island unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
         <ul class="list-group">
           <li><a href="{{site.baseurl}}/index">Home</a></li>
           <li><a href="{{site.baseurl}}/snapshot">Snapshot</a></li>
-          <li><a href="{{site.baseurl}}/recipedia">Recipedia</a></li
+          <li><a href="{{site.baseurl}}/recipedia">Recipedia</a></li>
+          <li><a href="{{site.baseurl}}/trail">Trail</a></li>
+          <li><a href="{{site.baseurl}}/oiaf">OIAF</a></li>
         </ul>
       </div>
 
@@ -36,6 +38,7 @@
         <ul class="list-group">
           <li><a href="https://instagram.com/_planetorium">Instagram</a></li>
           <li><a href="https://www.behance.net/planetorium">Behance</a></li>
+          <li><a href="">tori@planetorium.ca</a></li>
         </ul>
       </div>
 
@@ -44,10 +47,30 @@
           <li>Tori Sheen</li>
           <li>Ottawa, Ontario</li>
           <li>Canada</li>
-          <li>tori@planetorium.ca</li>
         </ul>
       </div>
     </div>
   </footer>
+
+  <script type="application/jd+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tori Sheen",
+      "jobTitle": "Graphic Designer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ottawa",
+        "addressRegion": "ON",
+        "addressCountry": "CA",
+      },
+      "email": "tori@planetorium.ca",
+      "website": "http://planetorium.ca"
+      "sameAs": [
+        "https://www.instagram.com/_planetorium/",
+        "https://www.behance.net/planetorium"
+      ]
+    }
+  </script>
 </body>
 </html>
