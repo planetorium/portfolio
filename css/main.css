@@ -3,6 +3,15 @@ html {
   color: #7D38C6;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 a {
   color: #6BCCE1;
   text-decoration: none;
@@ -139,7 +148,7 @@ footer a:hover {
   color: #000;
 }
 
-.image-1 {
+.desktop {
   display: none;
 }
 
@@ -153,11 +162,11 @@ footer a:hover {
 
 @media only screen and (min-width: 48em) {
 
-  .image-1 {
+  .desktop {
     display: block;
   }
 
-  .image-2 {
+  .mobile {
     display: none;
   }
 
