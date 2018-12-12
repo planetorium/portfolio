@@ -114,6 +114,23 @@ footer a:hover {
   background-color: #3FD6EB;
 }
 
+.oiaf-text {
+  color: #41CDD8;
+}
+
+.oiaf-header {
+  color: #41CDD8;
+}
+
+.oiaf-button {
+  background-color: #41CDD8;
+}
+
+.oiaf-button:hover {
+  color: #fff;
+  background-color: #EF9122;
+}
+
 .max-width {
   max-width: 32em;
 }
@@ -142,6 +159,10 @@ footer a:hover {
 
 .trail-waves {
   background-image: url("../images/trail-waves.svg");
+}
+
+.oiaf-waves {
+  background-image: url("../images/oiaf-waves.svg");
 }
 
 .text-content {
