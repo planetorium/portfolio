@@ -150,19 +150,19 @@ footer a:hover {
 }
 
 .green-waves {
-  background-image: url("../images/green-waves.svg");
+  background-image: url("../images/recipedia/green-waves.svg");
 }
 
 .blue-waves {
-  background-image: url("../images/blue-waves.svg");
+  background-image: url("../images/snapshot/blue-waves.svg");
 }
 
 .trail-waves {
-  background-image: url("../images/trail-waves.svg");
+  background-image: url("../images//trail/trail-waves.svg");
 }
 
 .oiaf-waves {
-  background-image: url("../images/oiaf-waves.svg");
+  background-image: url("../images/oiaf/oiaf-waves.svg");
 }
 
 .text-content {
