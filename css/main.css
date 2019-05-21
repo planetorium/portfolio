@@ -4,7 +4,11 @@ html {
 }
 
 .header-image-color {
-  background-color: #5D2E91;
+  background-image: linear-gradient(to right, #6BCCE1, #5D2E91);
+}
+
+.footer-image {
+  background-image: linear-gradient(to right, #6BCCE1, #5D2E91);
 }
 
 .main-banner-color {
@@ -47,7 +51,7 @@ a:hover {
 }
 
 footer, footer a {
-  color: #6BCCE1;
+  color: #fff;
 }
 
 footer a:hover {
