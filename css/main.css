@@ -138,6 +138,23 @@ footer a:hover {
   background-color: #EF9122;
 }
 
+.videos-text {
+  color: #940DB5;
+}
+
+.videos-header {
+  color: #940DB5;
+}
+
+.videos-button {
+  background-color: #940DB5;
+}
+
+.videos-button:hover {
+  color: #fff;
+  background-color: #EBBAF7;
+}
+
 .max-width {
   max-width: 32em;
 }
@@ -170,6 +187,10 @@ footer a:hover {
 
 .oiaf-waves {
   background-image: url("../images/oiaf/oiaf-waves.svg");
+}
+
+.videos-waves {
+  background-image: url("../images/pink-waves.svg");
 }
 
 .text-content {
