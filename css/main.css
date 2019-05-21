@@ -1,6 +1,6 @@
 html {
   font-family: Quicksand, sans-serif;
-  color: #7D38C6;
+  color: #5D2E91;
 }
 
 .skip-links a {
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #7D38C6;
+  color: #5D2E91;
 }
 
 .button {
@@ -30,39 +30,32 @@ a:hover {
 }
 
 .main-nav {
-  color: #fff;
+  margin: 0;
+  color: #6BCCE1;
 }
 
 .main-nav:hover {
   color: #DCC9ED;
 }
 
-.footer-image {
-  background-image: linear-gradient(to right, #7D38C6, #7D38C6);
-}
-
 footer, footer a {
-  color: #fff;
+  color: #6BCCE1;
 }
 
 footer a:hover {
   color: #DCC9ED;
 }
 
-.header-image {
-  background-image: linear-gradient(to right, #7D38C6, #7D38C6);
-}
-
 .about-me {
-  color: #7D38C6;
+  color: #5D2E91;
 }
 
 .about-me-header {
-  color: #7D38C6;
+  color: #5D2E91;
 }
 
 .about-button {
-  background-color: #7D38C6;
+  background-color: #5D2E91;
 }
 
 .recipedia-text {
